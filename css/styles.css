@@ -8,13 +8,25 @@
     padding: 200px;
     color: white;
 }
-.second{
+
+.second {
     text-align: center;
-    
+
 }
-.a img:last-child{
+
+.first img:last-child {
     padding: 170px;
 }
-h2{
-text-align: center;
+
+h2 {
+    text-align: center;
+}
+
+.c {
+    background-image: url('../images/s_image.jpg');
+    background-size: cover;
+    height: 250px;
+    text-align: center;
+    color: white;
+    padding: 100px;
 }
