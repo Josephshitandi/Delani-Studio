@@ -12,3 +12,9 @@
     text-align: center;
     
 }
+.a img:last-child{
+    padding: 170px;
+}
+h2{
+text-align: center;
+}
