@@ -15,7 +15,7 @@
 }
 
 .first img:last-child {
-    padding: 170px;
+    padding: 220px;
 }
 
 h2 {
@@ -25,8 +25,15 @@ h2 {
 .third {
     background-image: url('../images/s_image.jpg');
     background-size: cover;
-    height: 250px;
+    height: 450px;
     text-align: center;
     color: white;
     padding: 100px;
+}
+
+#design-p,
+#development-p,
+#product-p {
+    display: none;
+    text-align: center;
 }
