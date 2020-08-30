@@ -31,7 +31,7 @@ $(document).ready(function () {
         alert("Hello! " + name + "," + " We have received your message. Thank you for reaching out to us. ");
     }
 
-
+event.preventDefault();
 });
 $(document).ready(function () {
     $('.card0').mouseover(function () {
@@ -89,4 +89,5 @@ $(document).ready(function () {
     $('.card7').mouseout(function () {
         $('.project8').hide();
     });
+    event.preventDefault()
 });

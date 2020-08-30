@@ -20,7 +20,14 @@
 
 h2,
 h4 {
+    font-weight: bold;
     text-align: center;
+    text-transform: uppercase;
+}
+
+h5 {
+    text-align: center;
+    font-weight: bold;
 }
 
 .third {
@@ -53,7 +60,7 @@ h4 {
 }
 
 .footer {
-    width: 50%;
+    width: 55%;
     margin: 0 auto;
     padding: 100px;
 }
@@ -100,110 +107,117 @@ textarea {
 
 
 /* portfolio */
-.portfolio{
+.portfolio {
     padding-top: 20px;
     padding-bottom: 30px;
     padding-left: 9%;
     padding-right: 9%;
 }
 
-.portfolio >h2{
+.portfolio>h2 {
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
 }
-#pro{   
-    margin-top: 30%; 
+
+#pro {
+    margin-top: 30%;
     text-align: center;
-    font-size: 25px;    
+    font-size: 25px;
 }
 
-.project{
+.project {
     width: 100%;
     height: 100%;
-    background-color:white;    
+    background-color: white;
     opacity: 0.2;
     position: absolute;
     top: 0.0em;
-    display:none;
-    color:black;
-    font-size: 20px;        
+    display: none;
+    color: black;
+    font-size: 20px;
 }
 
-.project2{    
+.project2 {
     width: 100%;
     height: 100%;
-    background-color:white;    
+    background-color: white;
     opacity: 0.6;
     position: absolute;
     top: 0.0em;
-    display:none;
-    color:black;
-    font-size: 20px;   
+    display: none;
+    color: black;
+    font-size: 20px;
 }
-.project3{
+
+.project3 {
     width: 100%;
     height: 100%;
-    background-color:white;    
+    background-color: white;
     opacity: 0.4;
     position: absolute;
     top: 0.0em;
-    display:none;
-    color:black;
+    display: none;
+    color: black;
     font-size: 20px;
-    }
- .project4{
+}
+
+.project4 {
     width: 100%;
     height: 100%;
-    background-color:white;    
+    background-color: white;
     opacity: 0.5;
     position: absolute;
     top: 0.0em;
-    display:none;
-    color:black;
+    display: none;
+    color: black;
     font-size: 20px;
-    }
-    .project5{
+}
+
+.project5 {
     width: 100%;
     height: 100%;
-    background-color:white;    
+    background-color: white;
     opacity: 0.5;
     position: absolute;
     top: 0.0em;
-    display:none;
-    color:black;
+    display: none;
+    color: black;
     font-size: 20px;
-    }
-    .project6{
+}
+
+.project6 {
     width: 100%;
     height: 100%;
-    background-color:white;    
+    background-color: white;
     opacity: 0.5;
     position: absolute;
     top: 0.0em;
-    display:none;
-    color:black;
+    display: none;
+    color: black;
     font-size: 20px;
-    }
-    .project7{
+}
+
+.project7 {
     width: 100%;
     height: 100%;
-    background-color:white;    
+    background-color: white;
     opacity: 0.5;
     position: absolute;
     top: 0.0em;
-    display:none;
-    color:black;
+    display: none;
+    color: black;
     font-size: 20px;
-    }
-    .project8{
+}
+
+.project8 {
     width: 100%;
     height: 100%;
-    background-color:white;    
+    background-color: white;
     opacity: 0.5;
     position: absolute;
     top: 0.0em;
-    display:none;
-    color:black;
+    display: none;
+    color: black;
     font-size: 20px;
-    }
+}
