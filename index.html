@@ -53,7 +53,7 @@
                     </h4>
                     <p id="design-p">
                         Our design practice offers a full range of services including brand strategy,
-                        interaction and visual design and user experience testing.
+                        interaction and visual design and user experience testing. <br><br>
                         Throughout your project, our designers create and implement visual design and workflows,
                         solicit user feedback and work with you to make sure what gets built is what is needed.
                     </p>
@@ -64,7 +64,7 @@
 
                     <h4> DEVELOPMENT </h4>
                     <p id="development-p">All engineers are fluent in the latest enterprise, mobile and web development
-                        technologies.
+                        technologies. <br><br>
                         They collaborate with your team to write, and improve code on a daily basis, using proven
                         practices such as test-driven development and pair programming.</p>
 
@@ -73,43 +73,84 @@
                     <img src="./images/product_icon.png" id="product-pic" alt="Product">
                     <h4>PRODUCT MANAGEMENT</h4>
                     <p id="product-p"> Planning and development is iterative. Because we are constantly coding and
-                        testing,the products we build are always ready to go live.
+                        testing,the products we build are always ready to go live. <br><br>
                         This iterative process allows for changes as business requirements evolve. </p>
 
                 </div>
             </div>
         </div>
-        <div class="portfolio">
-            <h2>PORTFOLIO</h2>
-            <div class="row col-space">
-                <div class="col-md-3">
-                    <img src="./images/work1.jpg" alt="">
-                </div><br>
-                <div class="col-md-3">
-                    <img src="./images/work2.jpg" alt="">
-                </div><br>
-                <div class="col-md-3">
-                    <img src="./images/work3.jpg" alt="">
-                </div><br>
-                <div class="col-md-3">
-                    <img src="./images/work4.jpg" alt="">
-                </div><br>
+        <div class="container">
+            <div class="portfolio">
+                <h2>Portfolio</h2>
+                <div class="row col-space">
+                    <div class="col-md-3 p-2">
+                        <div class="card card0">
+                            <img src="./images/work4.jpg" class="img-fluid" alt="porfolio1">
+                            <div class="project">
+                                <p id="pro">PROJECT I</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 p-2">
+                        <div class="card card1">
+                            <img src="./images/work3.jpg" class="img-fluid" alt="porfolio2">
+                            <div class="project2">
+                                <p id="pro">PROJECT 2</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 p-2">
+                        <div class=" card card2">
+                            <img src="./images/work2.jpg" class="img-fluid" alt="porfolio3">
+                            <div class="project3">
+                                <p id="pro">PROJECT 3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 p-2">
+                        <div class="card card3">
+                            <img src="./images/work1.jpg" class="img-fluid" alt="porfolio4">
+                            <div class="project4">
+                                <p id="pro">PROJECT 4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-            </div><br>
-            <div class="row col-space">
-                <div class="col-md-3">
-                    <img src="./images/work5.jpg" alt="">
-                </div><br>
-                <div class="col-md-3">
-                    <img src="./images/work6.jpg" alt="">
-                </div><br>
-                <div class="col-md-3">
-                    <img src="./images/work7.jpg" alt="">
-                </div><br>
-                <div class="col-md-3">
-                    <img src="./images/work8.jpg" alt="">
-                </div><br>
-
+                <div class="row col-space">
+                    <div class="col-md-3 p-2">
+                        <div class="card card4">
+                            <img src="./images/work5.jpg" class="img-fluid" alt="porfolio5">
+                            <div class="project5">
+                                <p id="pro">PROJECT 5</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 p-2">
+                        <div class="card card5">
+                            <img src="./images/work6.jpg" class="img-fluid" alt="porfolio6">
+                            <div class="project6">
+                                <p id="pro">PROJECT 6</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 p-2">
+                        <div class="card card6">
+                            <img src="./images/work7.jpg" class="img-fluid" alt="porfolio7">
+                            <div class="project7">
+                                <p id="pro">PROJECT 7</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 p-2">
+                        <div class=" card card7">
+                            <img src="./images/work8.jpg" class="img-fluid" alt="porfolio8">
+                            <div class="project8">
+                                <p id="pro">PROJECT 8</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="contact">
@@ -117,49 +158,48 @@
             <div class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-8">
-                    <form id="form" name="form2" onsubmit="return contact()">
+                    <form action="/action_page.php" id="sayhi" name="contacts" onsubmit="contact()">
                         <div class="row">
                             <div class="col">
-                                <input type="text" class="form-control" id="transparent" placeholder="Name" name="name">
+                                <input type="text" class="form-control" id="form1" placeholder="Name" name="name">
                             </div>
                             <div class="col">
-                                <input type="text" class="form-control" id="transparent" placeholder="Email"
-                                    name="email">
+                                <input type="text" class="form-control" id="form1" placeholder="Email" name="email">
                             </div>
                         </div>
-
-                        <div class="form-group" id="form"><br>
-
-                            <textarea id="transparent" id="message" rows="9" placeholder="Your Message here..."
+                        <div class="form-group" id="sayhi"><br>
+                            <textarea id="form1" id="message" rows="9" placeholder="Your Message here..."
                                 name="message"></textarea>
                         </div>
-                        <button type="submit" id="transparency"
-                            class="btn btn-outline-light btn-lg btn-block">Submit</button>
+                        <button type="submit" id="submit" class="btn btn-outline-light btn-lg btn-block">Submit</button>
                     </form>
                 </div>
             </div>
         </div>
         <div class="footer">
             <div class="row">
-                <img src="./images/twitter.png" alt="">
-                <img src="./images/dribble.png" alt="">
-                <img src="./images/facebook.png" alt="">
-                <img src="./images/g_plus.png" alt="">
-                <img src="./images/skype.png" alt="">
-                <img src="./images/stumble_upon.png" alt="">
-                <img src="./images/behance.png" alt="">
-                <img src="./images/pinterest.png" alt="">
-                <img src="./images/flickr.png" alt="">
+                <div class="social">
+                    <img src="./images/twitter.png" alt="">
+                    <img src="./images/dribble.png" alt="">
+                    <img src="./images/facebook.png" alt="">
+                    <img src="./images/g_plus.png" alt="">
+                    <img src="./images/skype.png" alt="">
+                    <img src="./images/stumble_upon.png" alt="">
+                    <img src="./images/behance.png" alt="">
+                    <img src="./images/pinterest.png" alt="">
+                    <img src="./images/flickr.png" alt="">
+
+                </div>
+
 
             </div>
 
             <h4>DELANI STUDIO <br> 2019</h4>
 
+
         </div>
-
-
-
     </div>
+
 </body>
 
 </html>
