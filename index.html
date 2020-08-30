@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="first">
             <img src="./images/logo.png" alt="logo">
             <h1>WELCOME<br> TO DELANI STUDIO</h1>
@@ -81,37 +81,68 @@
         </div>
         <div class="portfolio">
             <h2>PORTFOLIO</h2>
-            <div class="row">
+            <div class="row col-space">
                 <div class="col-md-3">
                     <img src="./images/work1.jpg" alt="">
-                </div>
+                </div><br>
                 <div class="col-md-3">
                     <img src="./images/work2.jpg" alt="">
-                </div>
+                </div><br>
                 <div class="col-md-3">
                     <img src="./images/work3.jpg" alt="">
-                </div>
+                </div><br>
                 <div class="col-md-3">
                     <img src="./images/work4.jpg" alt="">
-                </div>
+                </div><br>
 
-            </div>
-            <div class="row">
+            </div><br>
+            <div class="row col-space">
                 <div class="col-md-3">
                     <img src="./images/work5.jpg" alt="">
-                </div>
+                </div><br>
                 <div class="col-md-3">
                     <img src="./images/work6.jpg" alt="">
-                </div>
+                </div><br>
                 <div class="col-md-3">
                     <img src="./images/work7.jpg" alt="">
-                </div>
+                </div><br>
                 <div class="col-md-3">
                     <img src="./images/work8.jpg" alt="">
-                </div>
+                </div><br>
 
             </div>
         </div>
+        <div class="contact">
+            <h2>CONTACT US</h2>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <form id="form" name="form2" onsubmit="return contact()">
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" id="transparent" placeholder="Name"
+                                    name="name">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" id="transparent" placeholder="Email"
+                                    name="email">
+                            </div>
+                        </div>
+
+                        <div class="form-group" id="form"><br>
+
+                            <textarea id="transparent" id="message" rows="9" placeholder="Your Message here..."
+                                name="message"></textarea>
+                        </div>
+                        <button type="submit" id="transparency"
+                            class="btn btn-outline-light btn-lg btn-block">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+
+        </div>
+
 
 
     </div>
