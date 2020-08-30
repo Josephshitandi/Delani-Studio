@@ -15,4 +15,12 @@ $(document).ready(function () {
         $("#development-p").hide();
         $("#development-pic").show();
     });
+    $("#product-pic").click(function () {
+        $("#product-p").show();
+        $("#product-pic").hide();
+    })
+    $("#product-p").click(function () {
+        $("#product-p").hide();
+        $("#product-pic").show();
+    });
 });
