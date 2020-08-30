@@ -79,7 +79,9 @@ h5 {
     padding: 25px;
 }
 
-#form1 {
+#form1,
+#form2,
+#form3 {
     background-color: transparent;
 }
 

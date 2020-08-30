@@ -23,15 +23,6 @@ $(document).ready(function () {
         $("#product-p").hide();
         $("#product-pic").show();
     });
-    //form function
-    function contact(form) {
-        var name = document.forms["contacts"]["name"].value;
-        var email = document.forms["contacts"]["email"].value;
-        var message = document.forms["contacts"]["message"].value;
-        alert("Hello! " + name + "," + " We have received your message. Thank you for reaching out to us. ");
-    }
-
-event.preventDefault();
 });
 $(document).ready(function () {
     $('.card0').mouseover(function () {
@@ -89,5 +80,11 @@ $(document).ready(function () {
     $('.card7').mouseout(function () {
         $('.project8').hide();
     });
-    event.preventDefault()
 });
+
+function contact() {
+    var name = document.getElementById("form1").value;
+    var email = document.getElementById("form2").value;
+    var message = document.getElementById("form3").value;
+    alert("Thank you " + name + ", " + email + " for contacting us. We have received your message.")
+}
