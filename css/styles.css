@@ -51,9 +51,16 @@ h4 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.contact{
+
+.contact {
     background-image: url('../images/c_image.jpg');
     background-size: cover;
-    height:500px;
+    height: 500px;
     width: 100%;
+}
+
+.footer {
+    width: 50%;
+    margin: 0 auto;
+    padding: 100px;
 }
