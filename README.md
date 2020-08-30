@@ -9,12 +9,6 @@ Throughout your project, our designers create and implement visual design and wo
 </tr>
 </table>
 
-<!-- ## BDD
-| Problem to be handled | Input (Gender) | Input (Date Of Birth) | Output(Delani-Studio) |
-| -----------| -----------| ----------- | ----------- |
-| Find akan name| Female | 19-8-2020 | Akua |
-| Find akan name| Male | 19-8-2020 | Kwaku | -->
-
 ## Demo
 Here is a working live demo :  https://Josephshitandi.github.io/Delani-Studio/
 
