@@ -86,5 +86,13 @@ function contact() {
     var name = document.getElementById("form1").value;
     var email = document.getElementById("form2").value;
     var message = document.getElementById("form3").value;
-    alert("Thank you " + name + ", " + email + " for contacting us. We have received your message.")
+    if (name === "") {
+        alert("Please fill in your name");
+    } else if (email === "") {
+        alert("Please fill in your email");
+    } else if (message === "") {
+        alert("Please write your message")
+    } else
+        alert("Thank you " + name + ", " + email + " for contacting us. We have received your message.");
+    event.preventDefault();
 }
