@@ -84,18 +84,10 @@ $(document).ready(function () {
     });
 });
 
-// contact form section
-function contact() {
-    var name = document.getElementById("form1").value;
-    var email = document.getElementById("form2").value;
-    var message = document.getElementById("form3").value;
-    if (name === "") {
-        alert("Please fill in your name");
-    } else if (email === "") {
-        alert("Please fill in your email");
-    } else if (message === "") {
-        alert("Please write your message")
-    } else
-        alert("Thank you " + name + ", " + email + " for contacting us. We have received your message.");
-    event.preventDefault();
+//form function
+function contact(form) {
+    var name = document.forms["contacts"]["name"].value;
+    var email = document.forms["contacts"]["email"].value;
+    var message = document.forms["contacts"]["message"].value;
+    alert("Hello! " + name + "," + " We have received your message. Thank you for reaching out to us. ");
 }
