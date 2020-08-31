@@ -1,3 +1,4 @@
+/* Introduction page */
 .first {
     background-image: url('../images/h_img.jpg');
     background-size: cover;
@@ -9,14 +10,16 @@
     color: white;
 }
 
+.first img:last-child {
+    padding: 200px;
+}
+
+/* About section */
 .second {
     text-align: center;
 
 }
 
-.first img:last-child {
-    padding: 200px;
-}
 
 h2,
 h4 {
@@ -30,6 +33,7 @@ h5 {
     font-weight: bold;
 }
 
+/* services section */
 .third {
     background-image: url('../images/s_image.jpg');
     background-size: cover;
@@ -39,6 +43,7 @@ h5 {
     padding: 100px;
 }
 
+/* design section */
 #design-p,
 #development-p,
 #product-p {
@@ -54,17 +59,15 @@ h5 {
     margin-right: auto;
 }
 
-.col-space {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 
+/* footer section */
 .footer {
     width: 55%;
     margin: 0 auto;
     padding: 100px;
 }
 
+/* contact form  */
 .contact {
     background-image: url('../images/c_image.jpg');
     background-size: cover;
@@ -122,10 +125,20 @@ textarea {
     text-transform: uppercase;
 }
 
+.portfolio>P {
+    text-align: start;
+    vertical-align: top;
+}
+
 #pro {
     margin-top: 30%;
     text-align: center;
     font-size: 25px;
+}
+
+.col-space {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .project {
@@ -224,6 +237,7 @@ textarea {
     font-size: 20px;
 }
 
+/* media query */
 @media screen and (min-width: 480px) and (max-width: 767px) {
     body {
         background-color: white;

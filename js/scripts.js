@@ -1,3 +1,4 @@
+// what we do section
 $(document).ready(function () {
     $("#design-pic").click(function () {
         $("#design-p").show();
@@ -24,6 +25,7 @@ $(document).ready(function () {
         $("#product-pic").show();
     });
 });
+// portfolio section
 $(document).ready(function () {
     $('.card0').mouseover(function () {
         $('.project').show();
@@ -82,6 +84,7 @@ $(document).ready(function () {
     });
 });
 
+// contact form section
 function contact() {
     var name = document.getElementById("form1").value;
     var email = document.getElementById("form2").value;
